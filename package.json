@@ -1,15 +1,21 @@
 {
   "name": "tgo-nexus",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Testimony Nexus - Portfolio, Developer Platform, AI Workspace and Client Hub",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "portfolio",
+    "developer",
+    "nodejs",
+    "express",
+    "api"
+  ],
+  "author": "Testimony Oluwatimilehin Gboroye",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "bcryptjs": "^3.0.3",
