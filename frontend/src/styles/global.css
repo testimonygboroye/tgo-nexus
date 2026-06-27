@@ -1,0 +1,60 @@
+:root{
+  --primary:#7C3AED;
+  --secondary:#A855F7;
+  --accent:#C084FC;
+
+  --bg:#0F172A;
+  --card:#1E1B4B;
+
+  --text:#FFFFFF;
+  --muted:#CBD5E1;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: system-ui, Arial;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* GLOBAL LINK STYLE (IMPORTANT FIX) */
+a{
+  color: var(--primary);
+  transition: 0.2s;
+}
+
+a:hover{
+  color: var(--accent);
+}
+
+/* BUTTON SYSTEM (THIS IS KEY) */
+button{
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover{
+  background: var(--secondary);
+}
+
+/* CONTAINER FIX (IMPORTANT) */
+.container{
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section{
+  padding: 80px 0;
+}

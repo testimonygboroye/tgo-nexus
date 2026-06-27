@@ -1,0 +1,40 @@
+:root{
+  --primary:#7C3AED;
+  --secondary:#A855F7;
+  --accent:#C084FC;
+
+  --bg:#0F172A;
+  --text:#FFFFFF;
+  --muted:#CBD5E1;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:system-ui;
+  background:var(--bg);
+  color:var(--text);
+}
+
+.container{
+  width:100%;
+  max-width:1100px;
+  margin:0 auto;
+  padding:0 24px;
+}
+
+button{
+  background:var(--primary);
+  color:white;
+  border:none;
+  padding:12px 18px;
+  border-radius:10px;
+}
+
+a{
+  color:var(--muted);
+}
